@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="category-selector">
+        <button class="segmented-btn" data-category="all">All</button>
+        <button class="segmented-btn" data-category="electronics">Electronics</button>
+        <button class="segmented-btn" data-category="clothing">Clothing</button>
+        <button class="segmented-btn" data-category="home">Home</button>
+    </div>
+
+    <div class="product-list" id="product-list">
+        <!-- Products will be inserted here dynamically -->
+    </div>
+
+    <div id="cart-bottom-sheet" class="bottom-sheet">
+        <div class="bottom-sheet-content">
+            <button id="close-cart" class="close-btn">×</button>
+            <h2>Cart <p id="cart-total"> </p></h2>
+            <div id="cart-items"></div>
+            
+            <button id="checkout-btn" class="checkout-btn">Checkout </button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
