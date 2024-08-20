@@ -1,9 +1,9 @@
 // Example product JSON array with categories
 const products = [
-    { id: 1, name: "Product 1", price: 29.99, imageUrl: "product1.jpg", description: "This is a brief description of Product 1.", category: "electronics" },
-    { id: 2, name: "Product 2", price: 19.99, imageUrl: "product2.jpg", description: "This is a brief description of Product 2.", category: "clothing" },
-    { id: 3, name: "Product 3", price: 39.99, imageUrl: "product3.jpg", description: "This is a brief description of Product 3.", category: "home" },
-    { id: 4, name: "Product 4", price: 49.99, imageUrl: "product4.jpg", description: "This is a brief description of Product 4.", category: "electronics" },
+    { id: 1, name: "Product 1", price: 29.99, imageUrl: "https://crazeeburger.vercel.app/images/ice-cream.png", description: "This is a brief description of Product 1.", category: "electronics" },
+    { id: 2, name: "Product 2", price: 19.99, imageUrl: "https://crazeeburger.vercel.app/images/ice-cream.png", description: "This is a brief description of Product 2.", category: "clothing" },
+    { id: 3, name: "Product 3", price: 39.99, imageUrl: "https://crazeeburger.vercel.app/images/ice-cream.png", description: "This is a brief description of Product 3.", category: "home" },
+    { id: 4, name: "Product 4", price: 49.99, imageUrl: "https://crazeeburger.vercel.app/images/ice-cream.png", description: "This is a brief description of Product 4.", category: "electronics" },
     // Add more products as needed
 ];
 
